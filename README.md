@@ -2,7 +2,7 @@
 
 ## Overview
 
-![demo](assets/demo.png)
+![demo](./assets/demo.png)
 
 ## Features
 
