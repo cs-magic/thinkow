@@ -45,8 +45,8 @@ export default function MainInput() {
 
       <Textarea
         ref={refInput}
-        placeholder={"Ask anything..."}
         className={"resize-none"}
+        placeholder={"Ask anything..."}
         value={input}
         onChange={(event) => {
           setInput(event.currentTarget.value)
@@ -66,7 +66,7 @@ export default function MainInput() {
       <div className={"flex w-full items-center justify-between gap-1 "}>
         <div className={"text-muted-foreground"}>{input.length ?? 0} words</div>
 
-        <Separator orientation={"vertical"} className={"h-4"} />
+        <Separator className={"h-4"} orientation={"vertical"} />
 
         {/*<CiImageOn className={"h-6 w-6"} />*/}
 

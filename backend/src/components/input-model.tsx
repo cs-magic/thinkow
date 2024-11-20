@@ -2,7 +2,7 @@
 
 import { useUncontrolled } from "@mantine/hooks"
 import _ from "lodash"
-import { ReactNode, useEffect, useRef, useState } from "react"
+import { type ReactNode, useEffect, useRef, useState } from "react"
 
 import { Badge } from "@/components/ui/badge"
 import {
